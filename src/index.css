@@ -38,3 +38,11 @@ img {
 ::-webkit-scrollbar {
   display: none;
 }
+
+a {
+  color: gray;
+}
+
+.selectedAnchor {
+  color: blue;
+}

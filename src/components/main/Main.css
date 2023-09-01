@@ -5,3 +5,8 @@
 .main__body {
   width: 80vw;
 }
+
+.main__mainSection {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}

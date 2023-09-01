@@ -1,0 +1,23 @@
+.footerNav {
+  padding: 1rem 2rem 2rem;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerNav__items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerNav__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerNav__socials-icons {
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.footerMain {
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.footerMain > h3 {
+  padding: 1rem 0;
+}
+
+.footerMain > div > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerMain ul > li {
+  padding: 0.4rem 0;
+  font-size: 0.8rem;
+}
