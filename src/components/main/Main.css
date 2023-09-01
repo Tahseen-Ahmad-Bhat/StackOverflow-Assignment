@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+}
+
+.main__body {
+  width: 80vw;
+}

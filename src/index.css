@@ -34,3 +34,7 @@ img {
   color: black;
   font-weight: bold;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
