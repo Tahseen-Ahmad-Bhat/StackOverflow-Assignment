@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainQuestionSection.css";
+import Questions from "./Questions";
 
 const MainQuestionSection = () => {
   return (
@@ -18,7 +19,10 @@ const MainQuestionSection = () => {
           <li>week</li>
           <li>month</li>
         </ul>
+
+        {/* Question Section */}
       </div>
+      <Questions />
     </div>
   );
 };

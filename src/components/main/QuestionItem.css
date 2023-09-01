@@ -1,0 +1,41 @@
+.questionItem {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.questionItem__question {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.questionItem p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.questionItem__icon {
+  color: orange;
+  border-radius: 50%;
+  border: 1px solid orange;
+  padding: 0.1rem;
+  font-size: 1.5rem;
+}
+
+.questionItem__metric {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.questionItem__metric > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
